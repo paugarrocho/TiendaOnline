@@ -1,0 +1,229 @@
+body{
+    background-color:rgb(255, 255, 255) ;
+}
+
+h1{
+    text-align: center;
+    color: #17181b;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header{
+    padding: 20px 0 0 0;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+@media(min-width: 750px){
+    header{
+        text-align: left;
+    }
+}
+
+.borrar-producto{
+    background-color: #fbaf32;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.hero{
+    background-image: url(../img/img1.jpg);
+    height: 551px;
+}
+
+.encabezado{
+    margin: 30px 0;
+    color: #17181b;
+}
+
+.submenu{
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+
+.submenu:hover #carrito{
+    display: block;
+    color:#17181b;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.vacio{
+    padding: 10px;
+    background-color: #fbaf32;
+    text-align: center;
+    border-radius: 10px;
+    color: #17181b;
+}
+
+.button{
+    background-color: #fbaf32;
+    color:#17181b;
+}
+
+.contenido-hero{
+    margin-top: 80px;
+    color: #17181b;
+}
+
+.contenido-hero form{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.contenido-hero form #buscador{
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.contenido-hero form .submit-buscador{
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+ 
+}
+
+.barra{
+    padding: 20px 0;
+    background:#fbaf32;
+    background: -webkit-linear-gradient(left, #b95a00 0%, #ad5400 100%);
+}
+
+.barra p {
+    margin: 0;
+    color: #17181b;
+}
+
+.icono{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 750px){
+    .icono{
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: none;
+}
+
+.icono2 {
+    background-image: none;
+}
+
+.icono3 {
+    background-image:none ;
+}
+
+#lista-productos{
+    margin-bottom: 20px;
+}
+
+.agregar-carrito{
+    margin:10px 0;
+}
+
+.card{
+    text-align: center;
+    border: 1px solid #17181b;
+    background: rgb(255, 255, 255);
+}
+
+@media(min-width: 550px){
+    .card{
+        text-align: left;
+    }
+}
+
+.info-card {
+    padding: 10px 20px;
+    color: #17181b;
+}
+
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+
+.info-card .precio {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-card .precio-desc {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-card .precio span{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.main-footer{
+    background: #151515;
+    color: white;
+    padding: 30px 20px;
+}
+
+.footer_title{
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+
+.footer_txt{
+   color: #555;
+}
+
+.footer_link{
+    color:#555;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.footer_input{
+    background: #151515;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    border: 1px solid #555;
+}
+
+.copy{
+    color: #555;
+}

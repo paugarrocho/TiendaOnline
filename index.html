@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src="" alt="">Tienda</h1>
+                </div>
+                <div class="two columns u-pull-rigth">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" alt="">
+                            <div id="carrito">
+                                <p class="vacio" Carrito vacío></p>
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Producto</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                    </tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito"
+                                class="button u-full-width">Vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Buscar</h2>
+                        <p>Super descuentos de temporada</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿Que estas buscando?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Ropa para toda la familia<br>
+                        Conocé la nueva temporada</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Accesorios de verano<br>
+                        Hasta 50% OFF</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Ropa cómoda para jugar<br>
+                        Lo mejor para los más chicos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lista-productos" class="conteiner">
+        <h1 class="encabezado">Todos los productos</h1>        
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/muj1.jpg" class="imagen-producto u-full-width" >
+                    <div class="info-card">
+                        <h4>Buzo rayado</h4>
+                        <p>Todos los talles</p>
+                        <p class="precio">$4500 <span class="u-pull-right"></span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito data" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/hom1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Tapado</h4>
+                        <p class="precio">$8000<span class="u-pull-right"></span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito data" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/niñ1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Jardinero</h4>
+                        <p>Disponible en varios colores</p>
+                        <p class="precio">$6500 <span class="u-pull-right"></span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito data" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/acc1.jpg" class="imagen-producto u-full-width" >
+                    <div class="info-card">
+                        <h4>Sombreros</h4>
+                        <p>Rebaja en accesorios de verano</p>
+                        <p class="precio-desc">$2500 <span class="u-pull-right">$1500</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito data" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/acc2.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Bolsos y carteras</h4>
+                        <p class="precio">Desde $1500<span class="u-pull-right"></span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito data" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/img3.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Pantalones</h4>
+                        <p>Todos los talles</p>
+                        <p class="precio">Desde $2500<span class="u-pull-right"></span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito data" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">         
+                    <div class="footer_section">
+                        <h2 class="footer_title">Sobre nosotros</h2>
+                        <p class="footer_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                            velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="footer_section">
+                        <h2 class="footer_title">Ubicación</h2>
+                        <p class="footer_txt">Av. Presidente Perón 2500, Yerba Buena, Tucumán</p>
+                        <h2 class="footer_title">Contacto</h2>
+                        <p class="footer_txt">+54935869225</p>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="footer_section">
+                        <h2 class="footer_title">Seguinos en</h2>
+                        <a href="" class="footer_link">Instagram</a>
+                        <a href="" class="footer_link">Facebook</a>
+                        <a href="" class="footer_link">Tiktok</a>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="footer_section">
+                        <h2 class="footer_title">Suscribite</h2>
+                        <input type="email" class="footer_input" placeholder="Ingresa tu email">
+                    </div>
+                    <p class="copy">© 2022 TIENDA. Todos los derechos reservados</p>
+                </div>
+            </div>
+         </div>
+    
+    </footer>
+
+
+    
+</body>
+</html>
